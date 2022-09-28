@@ -22,6 +22,9 @@ Da wir die Aufgabe bewusst offen formuliert haben, kann es sein, dass du bei gew
 
 
 ***Weitere Informationen:***
+- in diesem Repo ist eine Spring boot Applikation mit ein paar starter Packages enthalten,
+die es dir erlauben sollten gleich mit der Businesslogik der Aufgabe zu starten.  
+- Es steht dir frei Dependencies hinzuzufügen, zu entfernen, oder auch ein ganz anderes/kein Framework zu benutzen.
 - Es muss keine UI/Weboberfläche erstellt werden.
 - Es ist **NICHT** notwendig mehrere Microservices zu erstellen
 - Eine H2 Datenbank ist bereits im Projekt konfiguriert, die Nutzung dieser (oder einer anderen Datenbank) ist jedoch optional. Es kann auch ein In-Memory Datastore genutzt werden, um die User Stories zu implementieren. 
