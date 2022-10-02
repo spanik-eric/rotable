@@ -1,14 +1,25 @@
 package at.rotable.terminplanungaufgabe.dto;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.*;
+import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
-public class UpdateUserRequest {
-    @NotBlank
-    @Size(min = 0, max = 255)
+@Data
+public class UpdateUserPayload {
+    @JsonProperty()
+    @NotBlank()
+    @Size(min = 1, max = 255)
     private String firstName;
 
-    @NotBlank
-    @Size(min = 0, max = 255)
+    @JsonProperty()
+    @NotBlank()
+    @Size(min = 1, max = 255)
     private String lastName;
+
+    @JsonProperty()
+    @NotBlank()
+    @Email()
+    private String email;
 }

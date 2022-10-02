@@ -1,5 +1,7 @@
 package at.rotable.terminplanungaufgabe.dto;
 
-public class CreateUserRequest extends UpdateUserRequest {
+import lombok.*;
 
+@Data
+public class CreateUserPayload extends UpdateUserPayload {
 }
