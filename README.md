@@ -1,5 +1,12 @@
 # Rotable Remote Exercise - Terminplanung
 
+## How to run:
+
+- mvn clean install
+- mvn spring-boot:run
+
+Application should spin up on port 8080. Open http://localhost:8080/api/swagger-ui
+
 ## Intro
 
 Vielen Dank dafür, dass du dir die Zeit nimmst unsere Test-User-Stories zu bearbeiten.  
